@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Club</title>
+    <link rel="shortcut icon" type="x-icon" href="logo1 (2).png">
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+    body{
+        .header-navbar {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    /* background-color: red; */
+    height: 100px;
+    position: absolute;
+    width: 98vw
+}
+
+.header-navbar .logo {
+    height: 200px;
+
+}
+.header-navbar .logo img {
+    height: 110%;
+    width: 110%;
+    object-fit: contain;
+    
+}
+
+.hero-section {
+    background-image: url(gym.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    min-height: 100vh;
+}
+.ul{
+    font-size: 20px;
+    margin-right: 70px;
+    margin-top: 30px;
+    list-style-type: none;
+    float:right;
+}
+
+.ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color:#fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+.ul li a:hover{
+    background-color: red;
+    color: white;
+}
+.logo img{
+    width: 125px;
+    height: 250px;
+    float: left;
+    margin-top: 10px;
+    position: relative;
+    bottom: 73px;
+    left: 0px;
+    
+    }
+    .contact{
+    align-items: center;
+    padding: 70px;
+    background-color: rgb(27, 25, 25);
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+.contact h1{
+    font-size: 40px;
+    /* margin-bottom: 50px; */
+    position: relative;
+    bottom: 60px;
+}
+.contact a{
+    text-decoration: none;
+    margin: 30px;
+    font-size: 30px;
+    color: rgb(230, 219, 219);
+}
+.contact a:hover{
+    color: red;
+    transition: 0.3s ease-in-out;
+}
+.contact address{
+    font-size: 30px;
+}
+.form-head{
+    height:50vh ;
+    width:100% ;
+    background-position: center;
+    background-size: cover;
+    color:black;
+    background-color: #545353;
+    ;
+}
+.join-head{
+    height:35vh ;
+    width:100% ;
+    /* background-image: url(gym.jpg.jpg); */
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color:white;
+    background-color: rgb(33 30 30);
+
+}
+.join-head h1{
+    position: relative;
+    top: 58%;
+    font-size: 40px;
+    font-family: system-ui;
+}
+.form-head{
+font-family: Arial, Helvetica, sans-serif;
+background-color: #f0f0f0;
+margin: 0px;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+.form-style{
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    height: 40%;
+}
+h2{
+    text-align: center;
+    color: #333;
+
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+
+}
+input[type="text"],
+input[type="email"],
+textarea{
+    width:100% ;
+    padding: 10px;
+    margin: bottom 10px;
+    border:1px solid gray ;
+    border-radius: 5px;
+}
+}
+button{
+    /* background-color:  #498db; */
+    color:white ;
+    border:none ;
+    padding:10px 20px ;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ea0000;
+}
+    </style>
+</head>
+<body>
+    <header class="header-navbar">
+        <div class="logo">
+            <img src="logo1 (2).png">
+
+        </div>
+        <div class="navbar-links">
+            <ul class="ul">
+                <li class="active"><a href="indexFitness.html">Home</a></li>
+                <li><a href="workout.html">Workout</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="aboutUs.html">About us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+    </header>
+    <section class="join-head">
+        <h1>
+            Join Us
+        </h1>
+        </section>
+<section class="form-head">
+    <form class="form-style">
+        <h2>Join US</h2>
+        <label for="fname">Name</label>
+        <input type="text" id="name" name="fname" placeholder="First Name">
+        <label for="lname">Name</label>
+        <input type="text" id="name" name="lname" placeholder="Last Name">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Email">
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<section class="About-Us">
+        <div class="contact">
+            <h1>Contact Us!</h1>
+            <a class="cont" href="tel:+923187725391">+92318772591</a> <br>
+            <a class="mail" href="mailto:fitnessclub@gmail.com">fitnessclub@gmail.com</a>
+            <address class="addr"> Fitness Club near Gul Haji plaza University road Peshawar </address>
+            
+        </div>
+</section>
+</body>
+</html>

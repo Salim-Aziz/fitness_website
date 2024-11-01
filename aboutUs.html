@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Club</title>
+    <link rel="shortcut icon" type="x-icon" href="logo1 (2).png">
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+            .header-navbar {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    /* background-color: red; */
+    height: 100px;
+    position: absolute;
+    width: 100vw
+}
+
+.header-navbar .logo {
+    height: 200px;
+
+}
+.header-navbar .logo img {
+    height: 110%;
+    width: 110%;
+    object-fit: contain;
+    
+}
+
+.hero-section {
+    background-image: url(gym.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    min-height: 100vh;
+}
+.ul{
+    font-size: 20px;
+    margin-right: 50px;
+    margin-top: 30px;
+    list-style-type: none;
+    float:right;
+}
+
+.ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color:#fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+.ul li a:hover{
+    background-color: red;
+    color: white;
+}
+/* .ul li.active a{
+    background-color: red;
+    color: white;
+} */
+.logo img{
+    width: 125px;
+    height: 250px;
+    float: left;
+    margin-top: 10px;
+    position: relative;
+    bottom: 73px;
+    left: 0px;
+    
+}
+.contact{
+    align-items: center;
+    padding: 70px;
+    background-color: rgb(73 70 69);
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+.contact h1{
+    font-size: 40px;
+    /* margin-bottom: 50px; */
+    position: relative;
+    bottom: 60px;
+}
+.contact a{
+    text-decoration: none;
+    margin: 30px;
+    font-size: 30px;
+    color: rgb(230, 219, 219);
+}
+.contact a:hover{
+    color: red;
+    transition: 0.3s ease-in-out;
+}
+.contact address{
+    font-size: 30px;
+}
+.sub-head{
+    height:130vh ;
+    width:100% ;
+    /* background-image: url(gym.jpg.jpg); */
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color:white;
+    background-color: rgb(33 30 30);
+
+}
+.sub-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 32%;
+}
+.about-box1 img{
+    width: 95%;
+    position: relative;
+        left: 60px;
+}
+.about-box2{
+    background-color: white;
+    color: black;
+    padding: 50px;
+    position: relative;
+    right: 90px;
+}
+.sub-head h1{
+    position: relative;
+    top: 15%;
+    font-size: 35px;
+        font-family: system-ui;
+}
+.sub-head p{
+    position: relative;
+    top: 17%;
+    font-size: 20px;
+        font-family: ui-monospace;
+} 
+
+
+}
+    </style>
+</head>
+<body>
+    <header class="header-navbar">
+        <div class="logo">
+            <img src="logo1 (2).png">
+
+        </div>
+        <div class="navbar-links">
+            <ul class="ul">
+                <li class="active"><a href="indexFitness.html">Home</a></li>
+                <li><a href="workout.html">Workout</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="aboutUs.html">About us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+    </header>
+<section class="sub-head">
+    <h1>
+        About US
+        </h1>
+        <p>
+            We help folks love, heal, understand, and move their <br> bodies—so they can be happier, healthier humans.
+        </p>
+    <div class="sub-box">
+
+    <div class="about-box1">
+        <img src="about.jpg" alt="">
+    </div>
+
+<div class="about-box2">
+    <h1>
+        We’re here to get as many people moving as possible.
+    </h1>
+<p>
+    Not just people that are already fit, but all people. <br> We offer a more accessible and sustainable alternative to the popular <br> “No, pain. No gain.” mantra.
+
+    We don’t think exercise should be associated with pain at all. <br> Gives it a bad name. Exercise is medicine. When done right, it not only alleviates pain, but it protects against it.
+</p>
+<div>
+</div>
+</section>
+
+
+    
+    <section class="About-Us">
+        <div class="contact">
+            <h1>Contact Us!</h1>
+            <a class="cont" href="tel:+923187725391">+92318772591</a> <br>
+            <a class="mail" href="mailto:fitnessclub@gmail.com">fitnessclub@gmail.com</a>
+            <address class="addr"> Fitness Club near Gul Haji plaza University road Peshawar </address>
+            
+        </div>
+    </section>
+</body>
+</html>
